@@ -1,0 +1,186 @@
+/* color: #1EC9ED; */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+:root {
+    --primary-color: #1EC9ED;
+    --darl-gray: gray;
+    --off-white: #F3F4F6;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+    margin: auto;
+    background-image: url("images/double-bubble-outline.png");
+}
+
+.container {
+    padding: 0rem 1rem;
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+
+/* links */
+.link {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.link-primary {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+    display: block;
+    max-width: 140px;
+    margin: 1rem 1rem 1rem 0rem;
+}
+
+.link-primary:hover {
+    background-color: #3EDBF0;
+    transition: 0.5s;
+}
+
+.link-secondary {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+    display: block;
+    max-width: 140px;
+    margin: 1rem 1rem 1rem 0rem;
+}
+
+.link-secondary:hover {
+    background-color: #C0FEFC;
+    transition: 0.5s;
+}
+
+/* navbar */
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+
+.list-tem-inline {
+    list-style: none;
+    display: inline;
+}
+
+.navigation .link {
+    color: white;
+}
+
+.navigation .non-bullet {
+    text-align: right;
+    display: block;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+    color: #11698E;
+}
+
+/* header */
+.hero {
+    padding: 1rem;
+    text-align: center;
+    margin: auto;
+    max-width: 700px;
+}
+.hero .hero-image {
+    max-width: 400px;
+    height: 400px;
+    display: block;
+    margin: auto;
+    border: 2px solid var(--primary-color);
+    border-radius: 1rem;
+}
+#head-style{
+    max-width: 400px;
+    display: block;
+    margin: auto;
+    font-size: 1.2rem;
+    border: none;
+}
+.hero .hero-heading {
+    text-align: center;
+    color: var(--darl-gray);
+    font-family: 'Style Script', cursive;
+    font-size: 2rem;
+    padding: 2rem;
+    border-style: dashed;
+}
+
+
+.captilise-letter {
+    font-size: 40px;
+}
+
+/* sections */
+.section {
+    padding: 2rem;
+}
+
+.section p {
+    color: #393E46;
+}
+
+.section h3 {
+    text-align: left;
+    font-size: 1.7rem;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Merienda', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.section h4 {
+    font-family: 'Cormorant Garamond', serif;
+
+    font-family: 'Dorsa', sans-serif;
+
+    font-family: 'Merienda', cursive;
+
+    font-family: 'Open Sans Condensed', sans-serif;
+
+    font-family: 'Paytone One', sans-serif;
+    color: #687980;
+    font-size: smaller;
+    font-style: italic;
+}
+
+.ow {
+    background-color: var(--off-white);
+}
+
+/* footer */
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link {
+    color: white;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
